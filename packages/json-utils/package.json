@@ -1,6 +1,6 @@
 {
   "name": "@aspack/json-utils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Enhanced JSON utilities for parsing, validation, and transformation",
   "main": "lib/index.js",
   "files": [
