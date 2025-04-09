@@ -25,5 +25,9 @@
     "eslint": "^8.47.0",
     "jest": "^29.6.2",
     "lerna": "^7.1.4"
+  },
+  "dependencies": {
+    "@aspack/json-utils": "workspace:*",
+    "@aspack/form-validator": "workspace:*"
   }
 }
