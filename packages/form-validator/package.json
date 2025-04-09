@@ -1,6 +1,6 @@
 {
   "name": "@aspack/form-validator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Form validation tools with schema support",
   "main": "lib/index.js",
   "files": [
