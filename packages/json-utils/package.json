@@ -26,5 +26,6 @@
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "gitHead": "cf8f02fe0749682b4e9244d698b31bcc87997660"
 }
