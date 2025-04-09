@@ -1,0 +1,30 @@
+{
+  "name": "@aspack/form-validator",
+  "version": "0.1.0",
+  "description": "Form validation tools with schema support",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "form",
+    "validation",
+    "schema"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

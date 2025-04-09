@@ -1,0 +1,30 @@
+{
+  "name": "@aspack/json-utils",
+  "version": "0.1.0",
+  "description": "Enhanced JSON utilities for parsing, validation, and transformation",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "json",
+    "parser",
+    "utilities"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
